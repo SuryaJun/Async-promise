@@ -15,11 +15,14 @@
     <nav class="navbar navbar-dark bg-dark mt-4">
         <div class="container-fluid">
           <a class="navbar-brand">Portal Berita</a>
-          <form class="d-flex">
-            <input id="input-search" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button id="btn-search" class="btn btn-outline-success" type="button" onclick="dat()">Search</button>
+          <form class="search-wrapper">
+            <input id="input-search" class="text" type="text" placeholder="🔍 Search" autocomplete="off">
+  
           </form>
         </div>
+
+        <div id="newsResult"></div>
+        
       </nav>
       <div>
         <br>
